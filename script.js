@@ -44,7 +44,7 @@ function levelUp(){
     let randColor = btns[randIdx];
     let randBtn = document.querySelector(`.${randColor}`);
     gameSeq.push(randColor);
-    console.log(gameSeq); 
+    // console.log(gameSeq); 
     gameFlash(randBtn);
     if(level > hiScore){
         hiScore++;
